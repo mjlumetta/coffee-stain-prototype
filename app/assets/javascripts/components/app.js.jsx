@@ -4,8 +4,7 @@ var App = React.createClass({
 			<div>
 				<AppHeader />
 				<div className="container">
-					<h1>Home</h1>
-					<p>Hello Coffee Stain!</p>
+					<AppBody />
 					<AppFooter />
 				</div>
 			</div>
