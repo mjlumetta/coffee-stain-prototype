@@ -3,6 +3,7 @@ var AppBody = React.createClass({
 		return (
 			<div>
 				{this.props.signUp? <SignUp /> : null}
+				{this.props.editUser? <EditUser /> : null}
 			</div>
 		);
 	}

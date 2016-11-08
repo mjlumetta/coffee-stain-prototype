@@ -33,8 +33,9 @@ describe('SignUp', function() {
 
 		it('should have a header', function() {
 			expect(headerNode.tagName.toLowerCase()).toBe('h1');
+			expect(headerNode.className).toMatch('page-heading');
 			expect(headerNode.textContent).toBe('Sign Up');
-		})
+		});
 
 		it('should have a col div', function() {
 			expect(divColNode.tagName.toLowerCase()).toBe('div');
